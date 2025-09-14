@@ -4,7 +4,7 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from PIL import Image
 import io
-from .model import predict
+from model import predict
 
 
 app = FastAPI(title="Breast Cancer Classifier", description="Upload histopathology image for prediction")
